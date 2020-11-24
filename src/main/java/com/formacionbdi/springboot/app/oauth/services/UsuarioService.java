@@ -15,7 +15,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.formacionbdi.springboot.app.oauth.clients.UsuarioFeignClient;
-import com.formacionbdi.springboot.app.usuarios.commons.models.entity.Usuario;
+import com.formacionbdi.springboot.app.usuarios.models.Usuario;
 
 @Service
 public class UsuarioService implements IUsuarioService, UserDetailsService{

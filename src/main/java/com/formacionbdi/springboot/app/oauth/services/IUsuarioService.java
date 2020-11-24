@@ -1,6 +1,6 @@
 package com.formacionbdi.springboot.app.oauth.services;
 
-import com.formacionbdi.springboot.app.usuarios.commons.models.entity.Usuario;
+import com.formacionbdi.springboot.app.usuarios.models.Usuario;
 
 public interface IUsuarioService {
 	
